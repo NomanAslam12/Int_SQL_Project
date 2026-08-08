@@ -90,5 +90,5 @@ $2,800+ vs. ~$1,970 per customer is a large enough gap to be a product or market
 
 ## Technical Details
 - **Database:** PostgreSQL
-- **Analysis Tool:** PostgreSQL
+- **Analysis Tool:** PostgreSQL, DBeaver, PGadmin
 - **Visualization:** Gemini and Excel

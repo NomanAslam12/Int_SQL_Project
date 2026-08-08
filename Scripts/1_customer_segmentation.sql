@@ -1,3 +1,4 @@
+
 WITH customer_ltv AS (
     SELECT 
         ca.customerkey,
