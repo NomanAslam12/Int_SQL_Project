@@ -34,7 +34,7 @@ To better understand regional differences, we analyzed how customers are distrib
 💻Query: [1_a_customer_segmentation](/Scripts/1_a_customer_segementation_by_revenue_tier.sql)
 
 **📈Visualization:**
-![Customer Distribution by Revenue Tier](images\1_a_customer_segmentation_byrevenue_bycountry.png)
+![Customer Distribution by Revenue Tier](/images/1_a_customer_segmentation_byrevenue_bycountry.png)
 
 **Key Observations:**
 - Low-value customers make up the largest share in most countries — ranging from 33% (US) to 49% (Australia)
@@ -45,8 +45,7 @@ To better understand regional differences, we analyzed how customers are distrib
 💻Query: [1_b_customer_segmentation](/Scripts/1_b_customer_segmentation_by_contribution_by_country.sql)
 
 **📈Visualization:**
-
-![Revenue Contribution by Country](/images/1_a_customer_segmentation_byrevenue_bycountry.png)
+![Revenue Contribution by Country](/images/1_b_customer_seg_by_revenue_contribuitonTier_by_country.png)
 
 **Key Observations:**
 - Despite being a minority in *count*, High-value customers generate 55–81% of total revenue across countries
@@ -63,13 +62,11 @@ To better understand regional differences, we analyzed how customers are distrib
 
 > **Takeaway:** Across all countries, the top ~30% of customers deliver ~73% of revenue, while the bottom ~40% contribute only ~5%. This reinforces the need for targeted retention and upsell strategies — especially in markets like Australia where the high-value base is thinner.
 
-
 **💡Business Insights:**
 - **High-value (66% revenue):** Offer premium membership program to 12,372 VIP customers, as losing one customer significantly impacts revenue
 - **Mid-value (32% revenue):** Create upgrade paths through personalized promotions, with potential $66.6M to $135.4M revenue opportunity
 - **Low-value (2% revenue):** Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 - **Regional nuance:** Prioritize high-value retention in the UK/US, while in Australia, focus on upgrading mid/low-tier customers to expand the high-value base
-
 
 ### 2. Cohort Analysis
 - Tracked revenue and customer count per cohorts
