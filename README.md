@@ -34,7 +34,7 @@ To better understand regional differences, we analyzed how customers are distrib
 💻Query: [1_a_customer_segmentation](/Scripts/1_a_customer_segementation_by_revenue_tier.sql)
 
 **📈Visualization:**
-![Customer Distribution by Revenue Tier](/images/1_c_customer_seg_by_revenue_contribuitonTier_bycountry.png)
+![Customer Distribution by Revenue Tier](/images/1_a_customer_segmentation_byrevenue_bycountry.png)
 
 **Key Observations:**
 - Low-value customers make up the largest share in most countries — ranging from 33% (US) to 49% (Australia)
@@ -46,7 +46,7 @@ To better understand regional differences, we analyzed how customers are distrib
 
 **📈Visualization:**
 
-![Revenue Contribution by Country](/images/1_b_customer_segmentation_byrevenue_bycountry.png)
+![Revenue Contribution by Country](/images/1_b_customer_seg_by_revenue_contribuitonTier_bycountry.png)
 
 **Key Observations:**
 - Despite being a minority in *count*, High-value customers generate 55–81% of total revenue across countries
