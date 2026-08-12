@@ -26,11 +26,49 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Mid-value segment (50% of customers) generates 32% of revenue ($66.6M)
 - Low-value segment (25% of customers) account for 2% of revenue ($4.3M)
 
-**💡Business Insights:**
-- High-value (66% revenue): Offer premium membership program to 12,372 VIP customers, as losing one customer significantly impacts revenue
-- Mid-value (32% revenue): Create upgrade paths through the personalized promotions, with potential $66.6M to $135.4M revenue opportunity
-- Low-value (2% revenue): Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
+### Deep Dive: Customer Segmentation by Country
+To better understand regional differences, we analyzed how customers are distributed across value tiers *by country* — both in terms of **customer count** and **revenue contribution**.
+
+#### A. Customer Distribution by Revenue Tier (% of Customers)
+💻Query: [1_a_customer_segmentation](/Scripts/1_a_customer_segementation_by_revenue_tier.sql)
+
+**📈Visualization:**
+![Customer Distribution by Revenue Tier](/images/1_c_customer_seg_by_revenue_contribuitonTier_bycountry.png)
+
+**Key Observations:**
+- Low-value customers make up the largest share in most countries — ranging from 33% (US) to 49% (Australia)
+- High-value customers represent only 17–33% of the customer base across all countries
+- Australia has the smallest high-value customer share (17%) and the largest low-value share (49%), indicating a more price-sensitive market
+
+#### B. Revenue Contribution by Tier (% of Total Revenue)
+💻Query: [1_b_customer_segmentation](/Scripts/1_b_customer_segmentation_by_contribution_by_country.sql)
+
+**📈Visualization:**
+
+![Revenue Contribution by Country](/images/1_b_customer_segmentation_byrevenue_bycountry.png)
+
+**Key Observations:**
+- Despite being a minority in *count*, High-value customers generate 55–81% of total revenue across countries
+- Low-value customers contribute only 3–11% of revenue, despite being the largest group
+- The UK and US show the strongest revenue concentration in the High-value tier (81% and 78% respectively), while Australia has the lowest concentration (55%)
+
+#### Combined Country-Level Summary (Averages)
+
+| Tier | % of Customers (Avg.) | % of Revenue (Avg.) |
+|------|----------------------|----------------------|
+| High | ~30%                 | ~73%                 |
+| Mid  | ~31%                 | ~22%                 |
+| Low  | ~39%                 | ~5%                  |
+
+> **Takeaway:** Across all countries, the top ~30% of customers deliver ~73% of revenue, while the bottom ~40% contribute only ~5%. This reinforces the need for targeted retention and upsell strategies — especially in markets like Australia where the high-value base is thinner.
+
+
+**💡Business Insights:**
+- **High-value (66% revenue):** Offer premium membership program to 12,372 VIP customers, as losing one customer significantly impacts revenue
+- **Mid-value (32% revenue):** Create upgrade paths through personalized promotions, with potential $66.6M to $135.4M revenue opportunity
+- **Low-value (2% revenue):** Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
+- **Regional nuance:** Prioritize high-value retention in the UK/US, while in Australia, focus on upgrading mid/low-tier customers to expand the high-value base
 
 
 ### 2. Cohort Analysis
